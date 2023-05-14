@@ -30,6 +30,7 @@ To set up and run the URL Hashing System, follow these steps:
 2. Install the required dependencies using `npm install`.
 3. Start the application using `node app.js`.
 4. Access the URL Hashing System by visiting `http://localhost:3000` in your browser.
+5.  I have also deployed on AWS and you can visit on this link `http://hashingurl-env-1.eba-57zb3rra.ap-south-1.elasticbeanstalk.com/` in your browser. and test it.
 
 ## Acknowledgements
 

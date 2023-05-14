@@ -15,7 +15,7 @@ For implementing the URL Hashing System, we have chosen to use the following tec
 - **MVC pattern**: The URL Hashing System follows the MVC (Model-View-Controller) architectural pattern. This pattern provides clear separation of concerns and promotes code organization, modularity, and reusability.
 
 
-## AWS deploment link
+## AWS deployment link
 
 -  I have also deployed on AWS and you can visit on this link `http://hashingurl-env-1.eba-57zb3rra.ap-south-1.elasticbeanstalk.com/` in your browser. and test it.
 

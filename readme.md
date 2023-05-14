@@ -26,11 +26,64 @@ For implementing the URL Hashing System, we have chosen to use the following tec
 
 To set up and run the URL Hashing System, follow these steps:
 
-1. Clone the repository.
-2. Install the required dependencies using `npm install`.
-3. Start the application using `node app.js`.
-4. Access the URL Hashing System by visiting `http://localhost:3000` in your browser.
-5.  I have also deployed on AWS and you can visit on this link `http://hashingurl-env-1.eba-57zb3rra.ap-south-1.elasticbeanstalk.com/` in your browser. and test it.
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/Javedansari1993/url_hashing
+```
+
+Go to the project directory
+
+```bash
+  cd url_hashing
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run start
+```
+
+## Quick Start
+
+Node.js module should be installed in your machine befor download the project and run this command
+
+```bash
+  npm install
+```
+Start the server:
+```bash
+  npm start
+```
+  
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
+
+`PORT`
+
+`BASE_URL`
+
+
+## Running Tests
+
+To run tests, run the following command
+
+```bash
+  npm run test
+```
+
+## AWS deploment link
+
+-  I have also deployed on AWS and you can visit on this link `http://hashingurl-env-1.eba-57zb3rra.ap-south-1.elasticbeanstalk.com/` in your browser. and test it work or not.
 
 ## Acknowledgements
 

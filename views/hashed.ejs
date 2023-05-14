@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>URL Hashed</title>
-</head>
-<body>
-  <h1>URL Hashed</h1>
-  <p>Original URL: <%= originalURL %></p>
-  <p>Hashed URL: <%= hashedURL %></p>
-</body>
+    <head>
+        <title>URL Hashed</title>
+        <link rel="stylesheet" href="<%= baseurl %>/style.css" />
+    </head>
+    <body>
+        <div class="hashbox">
+            <h1>URL Hashed</h1>
+            <p>Original URL: <%= originalURL %></p>
+            <p>Hashed URL: <%= hashedURL %></p>
+            <p><a href="/">GO BACK</a></p>
+        </div>
+    </body>
 </html>
-

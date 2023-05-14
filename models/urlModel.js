@@ -1,5 +1,5 @@
-// models/urlModel.js
 const crypto = require('crypto');
+const { BASE_URL } = require('../helper/constant');
 
 class URLModel {
   constructor() {
@@ -8,7 +8,7 @@ class URLModel {
 
   generateHashedURL(url) {
     const hash = crypto.createHash('sha256').update(url).digest('hex');
-    const hashedURL = `https://example.com/${hash}`;
+    const hashedURL = BASE_URL+`/${hash}`;
     this.urlMapping[hash] = url;
     return hashedURL;
   }

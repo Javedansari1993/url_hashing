@@ -2,12 +2,15 @@
 <html>
 <head>
   <title>URL Hashing System</title>
+  <link rel="stylesheet" href="<%= baseurl %>/style.css">
 </head>
 <body>
-  <h1>URL Hashing System</h1>
+  <div class="box">
   <form action="/hash" method="POST">
-    <input type="text" name="url" placeholder="Enter URL" required>
-    <button type="submit">Generate Hashed URL</button>
+    <h1>URL Hashing System</h1>
+      <input class="myinput" type="text" name="url" placeholder="Enter URL" required>
+      <button class="indexbutton" type="submit">Generate Hashed URL</button>
   </form>
+  </div>
 </body>
 </html>
